@@ -11,8 +11,8 @@ from shutil import *
 class DirectoryServices:
 
     # Declare Directories
-    delivered_dir = "\\\\ccm-file-10\\corporate$\\New Hire Onboarding\\Delivered Letters\\"
-    undelivered_dir = "\\\\ccm-file-10\\corporate$\\New Hire Onboarding\\Undelivered Letters\\"
+    delivered_dir = "\\\\file-server\\path\\New Hire Onboarding\\Delivered Letters\\"
+    undelivered_dir = "\\\\file-server\\path\\New Hire Onboarding\\Undelivered Letters\\"
 
     def delivered(self):
         return self.delivered_dir
